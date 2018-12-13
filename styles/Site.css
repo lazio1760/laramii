@@ -1,0 +1,75 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* DEFAULTS
+----------------------------------------------------------*/
+.clear
+{
+    clear: both;
+    height:200px;
+} 
+
+@media screen and (max-width: 400px) {
+#mainbody{margin: 0 auto;
+    	  width:85%;
+		  min-width:300px; 
+		  height:420px; 
+		/*  max-height:420px;*/
+		  padding-left:5px;
+		  padding-right:5px;
+	   /* display: table-cell; */
+		  background-color:#FFF}
+.banner1{width:80%; padding-top:10px; min-width:300px;}		  
+.banner2, .banner3, .banner4 {display:none;}
+}
+
+
+body{background-color:#400000; 
+			padding-top:3%; 
+			padding-bottom: 0;}
+#mainbody{margin: 0 auto;
+          width:85%;
+		  min-width:340px; 
+		  height:420px; 
+		  background-color:#FFF}
+@media screen and (min-width: 400px) {
+.banner1{height:380px; width:23%; padding-left:2.5%; padding-top:10px; position: relative; padding-bottom: 10px;  float:left; }
+}
+.banner2{height:380px; width:23%; padding-left:2%; padding-top:10px; position: relative; padding-bottom: 10px;  float:left;}
+.banner3{height:380px; width:23%; padding-left:2%; padding-top:10px; position: relative;  float:left;}
+.banner4{height:380px; width:21%; padding-left:2%; padding-top:10px; position: relative;  float:left; clear:right;}
+.beadlink{text-align:center; padding-top: 360px;}
+.pic_container img, .pic_container2 img, .pic_container3 img, .pic_container4 img{
+                     position: absolute;
+                    }
+ .pic_container, .pic_container2, .pic_container3, .pic_container4 {
+                    width: 80%;
+                    height: 100%; 
+                 /*   overflow: hidden; */
+                }
+.pic_container, .pic_container2, .pic_container3, .pic_container4
+{
+    float: left;
+    padding-left: 1px;
+    padding-right: 2px;
+}	
+#content
+{      color:white;
+	   margin: 0 auto;
+       width:85%;
+	   font-family:"Comic Sans MS", cursive;
+	   font-size:16px;
+	   line-height: 1em; /*90%;  */
+	   padding-bottom: 100px;
+}
+.next{font-family:"Comic Sans MS", cursive;
+	   font-size:16px;}
+header{margin-left:5%; vertical-align: top; text-align: left; color:white; font-family:"Comic Sans MS", cursive; font-size:3em; }
+.motto{margin-left:6%; vertical-align: top; text-align: left; color:white; font-family:"Comic Sans MS", cursive; font-size:1em;}
+footer{ text-align: center; font-size:0.75em; color:white;bottom: 0; height: 200px; vertical-align: bottom;}
+/*.copyright{text-align: center; font-size:0.75em; color:white;}*/
+.beadlink{background:url(fontbead.png) no-repeat; display:block; }
+.beadlink:hover{background:url(fontbeadshad.png) no-repeat;}
+.braidlink{background:url(fontbraiding.png) no-repeat;}
+
+
+

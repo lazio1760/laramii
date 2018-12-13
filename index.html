@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Larammi.com|Home</title>
+	
+    <link rel="shortcut icon" href="images/laramii_favicon.jpg" type="image/x-icon"/>
+    <!-- Apple iOS icons -->
+    <!—- iPhone 57x57 -->
+    <link rel=" apple-touch-icon-precomposed" href="images/laramii_favicon.jpg" />
+    <!—- iPad 72x72 -->
+    <link rel=" apple-touch-icon-precomposed" href="images/laramii_favicon.jpg" sizes="72x72" />
+    <!—- iPhone Retina Display 114x114 -->
+    <link rel=" apple-touch-icon-precomposed" href="images/laramii_favicon.jpg" sizes="114x114" />
+    <!—- iPad Retina Display 144x144 -->
+    <link rel=" apple-touch-icon-precomposed" href="images/laramii_favicon.jpg" sizes="144x144" />
+	<link rel="stylesheet" type="text/css" href="../styles/Site.css">
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-44562222-2', 'auto');
+		  ga('send', 'pageview');
+
+	</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/fontbeadshad.png')">
+<header>
+Laramii
+</header>
+<div class="motto">...giving you the best</div><br/>
+<div id="mainbody">
+<!--<fieldset><legend style="color:#000; font-style:italic; font-family:'Comic Sans MS', cursive; font-weight:bold;">...giving you the best</legend> -->
+<div class="banner1">
+  <div class="pic_container">
+    <img src="images/beadbannergray.jpg" class="img-responsive"  style="width:90%; height:350px;" />
+    <img src="images/beadbangray3.jpg" class="img-responsive" style="width:90%; height:350px;" />
+  </div>
+ <div class="beadlink">
+    <a href="NecklacesnEarings.php"><img src="images/fontbead.png" name="beadnav" width="20%" height="14" border="0" id="beadnav" /></a> </div> 
+    <!--<div class="beadlink">
+    <a href="NecklacesnEarings.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('beadnav','','fontbeadshad.png',1)"><img src="images/fontbead.png" name="beadnav" width="60" height="14" border="0" id="beadnav" /></a> </div> -->
+</div>
+<div class="banner2">
+   <div class="pic_container">
+      <img src="images/grayscale_cornrows5.jpg" class="img-responsive"  style="width:90%; height:350px;" />
+      <img src="images/braidngbangray2.png" class="img-responsive" style="width:90%; height:350px;" />
+   </div>
+  <div class="beadlink">
+     <a href="#" ><img src="images/fontbraiding.png" width="41.47%" height="18" border="0"/></a>
+
+  </div> 
+</div>
+<div class="banner3">
+  <div class="pic_container">
+      <img src="images/fashionbangray2.png" class="img-responsive" style="width:90%; height:350px;" />
+      <img src="images/fashionbangray4.png" class="img-responsive" style="width:90%; height:350px;" />
+   </div>
+   <div class="beadlink">
+      <a href="skirtsnblouses.php" ><img src="images/fontfashion.png" width="42.5%" height="18" border="0" /></a>
+   </div>
+</div>
+<div class="banner4">
+  <div class="pic_container">
+      <img src="images/jewelrybangray1.png" class="img-responsive" style="width:90%; height:350px;" />
+      <img src="images/jewelrybangray3.png" class="img-responsive" style="width:90%;  height:350px;" />
+      <img src="images/jewelrybangray2.png" class="img-responsive" style="width:90%; height:350px;" /> 
+  </div>
+  <div class="beadlink">
+     <a href="necklaces.php" ><img src="images/fontjewelry.png" width="35%" height="18" border="0"/></a>
+  </div>
+</div>
+<!-- </fieldset>  -->
+</div>
+<div id="content">
+<p>Here at Laramii, we offer you the best of beaded necklaces, earings, bracelets and we also sew clothes using fabrics like Ankara (African prints), Tafetta, Satin, Chiffon cotton etc.<br /><br />
+                  At Laramii, you will find beautifully crafted hand made beads, African wear designs, jewelry and hair styles.<br /><br />
+                  You can contact us by calling our phone number or by sending us an e-mail.<br /><br />
+                  The best you deserve is what you&rsquo;ll get.<br /><br/>
+                  Enjoy!<br /><br />- Lara Shogbanmu
+
+         </p>
+</div>
+<footer>
+	<p>Copyright&copy; 2013 Laramii.com. All Right Reserved.                Design: <a href="http://www.webbteks.com" style="">Webbteks.com</a></p>
+<!--<div class="copyright">
+</div>
+-->
+</footer>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.4.1.js"></script>
+ <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function () {
+            rotatePics(1);
+        });
+        function rotatePics(currentPhoto) {
+            var numberOfPhotos = $('.pic_container img').length;
+            currentPhoto = currentPhoto % numberOfPhotos;
+            $('.pic_container img').eq(currentPhoto).fadeOut(function () {
+                // re-order the z-index
+                $('.pic_container img').each(function (i) {
+                    $(this).css(
+                    'zIndex', ((numberOfPhotos - i) + currentPhoto) % numberOfPhotos);
+                });
+                $(this).show();
+                setTimeout(function () { rotatePics(++currentPhoto); }, 5000);
+            });
+        }
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</body>
+</html>
